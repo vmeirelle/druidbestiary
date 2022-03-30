@@ -1,0 +1,59 @@
+:root{
+    __header-color: #DCDCDC;
+    __block-color: #C4C4C4;
+    __bg-color: #ffffff;
+    __font-color: #000000;
+}
+
+.cabeda{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 200px;
+
+}
+
+select {
+    text-align-last:center; 
+    text-align:center; 
+}
+
+body{
+    margin:20;
+    font-family: "Inter";
+}
+
+/* Header */
+
+header{
+    display: block;
+    height: 56;
+    width: 100%;
+    background-color: #DCDCDC;
+    border-radius: 88px;
+}
+
+
+nav {
+    display: flex;
+    position: relative;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: center;
+    padding: 10 10;
+}
+
+.left-wrapper {
+    margin-right: auto;
+}
+
+.cemter-wrapper {
+    
+}
+
+.right-wrapper {
+    margin-left: auto;
+}
+
+.bookSVG {
+    height: 20px;
+}

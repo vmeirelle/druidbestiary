@@ -1,0 +1,72 @@
+
+.headerMenu{
+    /* cor do bg */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+
+    background-color: #DCDCDC;
+    /* arredondamento bordas */
+    border-radius: 88px;
+    /*tamanho em relaçãoa tela*/
+    width: 95%;
+    /*centralizar*/
+    margin-left: auto;
+    margin-right:  auto;
+    margin-top: 20px;
+    /*aumentar espaçamento superior texto */
+    padding: 10px 0;
+    font-family: "Inter";
+    display: block;
+    column-gap: 20px;
+    justify-content: center;
+
+}
+
+.favSVG{
+    width: 25px;
+    float: right;
+    margin-right: 30px
+    
+}
+
+
+.cardCollection{
+
+    
+    margin-top: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+
+}
+.card{
+    
+    background-color: #C4C4C4;
+    font-family: "Inter";
+    
+    width: 25%;
+    min-width: 514px;
+
+    border-radius: 15px;
+    display:inline-block;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    vertical-align: top;
+    
+    margin: 5px;
+
+}
+
+select{
+    text-align: center;
+}
+
+hr{
+    padding: -1em;
+    margin: -0.2em; 
+}
